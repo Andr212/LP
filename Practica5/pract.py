@@ -43,7 +43,6 @@ class Fracciones:
             if self.num == self.den:
                 return Fracciones(1, 1)
             return Fracciones(self.num, self.den)
-
 p = 1
 while p > 0 and p < 5:
     print("1. Suma de fracciones")
